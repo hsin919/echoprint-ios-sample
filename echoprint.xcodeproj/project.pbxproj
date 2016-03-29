@@ -40,6 +40,7 @@
 		D9413A521CAA9F6000EB3178 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D9413A481CAA9F6000EB3178 /* ASINetworkQueue.m */; };
 		D9413A531CAA9F6000EB3178 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = D9413A4C1CAA9F6000EB3178 /* Reachability.m */; };
 		D9413A571CAAA12A00EB3178 /* libechoprint-codegen-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9413A561CAAA12A00EB3178 /* libechoprint-codegen-ios.a */; };
+		D9413A591CAAA14E00EB3178 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D9413A581CAAA14E00EB3178 /* libstdc++.6.0.9.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -106,6 +107,7 @@
 		D9413A4B1CAA9F6000EB3178 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		D9413A4C1CAA9F6000EB3178 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		D9413A561CAAA12A00EB3178 /* libechoprint-codegen-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libechoprint-codegen-ios.a"; sourceTree = "<group>"; };
+		D9413A581CAAA14E00EB3178 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9413A591CAAA14E00EB3178 /* libstdc++.6.0.9.tbd in Frameworks */,
 				9AC8898A13A69876002C92D4 /* AVFoundation.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				D9413A571CAAA12A00EB3178 /* libechoprint-codegen-ios.a in Frameworks */,
@@ -197,6 +200,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D9413A581CAAA14E00EB3178 /* libstdc++.6.0.9.tbd */,
 				9AC88A6E13A6ACEA002C92D4 /* libz.dylib */,
 				9AC88A0013A6A4B4002C92D4 /* MediaPlayer.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
